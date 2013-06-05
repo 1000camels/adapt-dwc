@@ -1,0 +1,32 @@
+/*
+Theme Name:     Adapt - customized by Darcy
+Theme URI:      http://1000camels.com/category/wordpress-themes/
+Description:    This includes some basic changes made to the Twenty Twelve theme, specifically no automatic display of featured image and list pages use excerpts when possible
+Author:         Darcy W. Christ
+Author URI:     http://1000camels.com/about/
+Template:       adapt            
+Version:        0.1.0
+*/
+
+@import url("../adapt/style.css");
+
+#masterhead, #page-heading {
+	border-bottom-width: 2px;
+}
+
+#home-posts .heading {
+	display: none;
+}
+
+.author-meta {
+        width: 100%;
+}
+.author-avatar {
+        float: left;
+}
+.author-avatar img {
+        margin-right: 10px;
+}
+.author-bio {
+        height: 100px;
+}
